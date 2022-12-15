@@ -1,0 +1,112 @@
+
+<html>  
+<head>  
+<script type="text/javascript" src="app.js">
+    </script>  
+<link rel="stylesheet" href="styles.css">
+<script src="https://d3js.org/d3.v7.min.js"></script>
+
+</head>
+<body onload=assignment9()> 
+
+
+<div>
+<h2 class="section">Final Project</h2>
+
+<br>
+<div>
+<h3>Question 1:</h3>
+Is there a correlation between the number of workers and revenue?
+<div id="q1">
+
+    </div>
+    <h4>Plot:</h4>
+    <div id="q1_plot" class="center_plot">
+    </div><br>
+    <div id="q1_answer" class="center_plot">
+    </div>
+    This scatterplot shows that there is a positive correlation between the number of workers and revenue which we can observe a general increase in revenue as the number of workers increase. 
+    <br>
+    Marks: points
+    <br>
+    Channels: Vertical and horizontal position
+</div>    
+</div>
+    
+<div>
+<h3>Question 2:</h3>
+What are the top companies in terms of their revenue?
+<div id="q2">
+    <div id="radio" class="center_plot">
+        <input type="radio" id="q1_2011" name="year" value=10 checked="checked">
+        <label for=10>Top 10</label>
+        <input type="radio" id="q1_2012" name="year" value=20>
+        <label for=20>Top 20</label>
+        <input type="radio" id="q1_2013" name="year" value=30>
+        <label for=30>Top 30</label>
+    </div>
+    <h4>Plot:</h4>
+    <div id="q2_plot" class="center_plot">
+    </div>
+    This bar plot gives us a visual distribution of revenue by company
+    <br>
+    Marks: line
+    <br>
+    Channels: Vertical and horizontal position
+</div>    
+
+<div>
+<h3>Question 3:</h3>
+What are the top 4 industries in this dataset and what is the distribution of these industries by state?
+<div id="q3">
+
+    </div>
+    <h4>Plot:</h4>
+    <div id="q3_plot" class="center_plot">
+    </div>
+This bar plot reveals that the Health industry is by far the most significant in the U.S.
+<br>
+color scheme: I just chose these colors because it looks good, easy on the eyes, and separable.
+<br>
+Marks: line
+<br>
+Channels: Vertical and horizontal postion + color hue
+</div> 
+
+<div>
+    <h3>Question 4:</h3>
+    What are the number of new hires by city in San diego?
+    <div id="q4">
+        </div>
+        <h4>Plot:</h4>
+        <div id="q4_plot" class="center_plot">
+    </div>
+   This topographic map shows what areas in San Diego have new hires which the amount is represented by the size of a circle.
+   <br>
+   color scheme: I chose these colors to make the circles separable from the map.
+   <br>
+   Marks: area, circle
+   <br>
+   Channels: vertical and horizontal position, size, color(separate circles from map)
+
+
+   <div>
+    <h3>Question 5:</h3>
+    What is the distribution of the number of workers in California by the top 4 industries?
+    <div id="q5">
+    
+        </div>
+        <h4>Plot:</h4>
+        <div id="q5_plot" class="center_plot">
+        </div><br>
+        <div id="q5_answer" class="center_plot">
+        </div>
+        This boxplot shows the distribution of the number of workers in California by these top 4 industries 
+        <br>
+        Marks: line, 
+        <br>
+        Channels: Vertical and horizontal position
+    </div>    
+   
+</body>  
+</html>  
