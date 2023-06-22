@@ -1,5 +1,4 @@
 import { csv } from 'd3';
-import { json } from 'd3';
 
 function assignment9(){
     var filePath="data/data1.csv";
