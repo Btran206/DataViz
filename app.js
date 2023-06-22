@@ -1,10 +1,6 @@
 import { csv } from 'd3';
 
-class Power extends React.Component {
-    csv('data/data1.csv').then((data) => {
-        console.log(data);
-    });  
-}
+
 function assignment9(){
     var filePath="data/data1.csv";
     question0(filePath);
