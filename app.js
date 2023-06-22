@@ -406,7 +406,7 @@ var question4=function(filePath){
                     .attr('height', height)
 
             var g = svg.append("g");    
-            const statesmap = d3.json("us-states.json");
+            const statesmap = d3.json("data/us-states.json");
             statesmap.then(function(map){
                 g.selectAll("path").data(map.features).enter()
                 .append("path").attr("d", path)
