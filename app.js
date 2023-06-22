@@ -1,5 +1,5 @@
 function assignment9(){
-    var filePath="data1.csv";
+    var filePath="/data/data1.csv";
     question0(filePath);
     question1(filePath);
     question2(filePath);
